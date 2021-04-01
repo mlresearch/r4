@@ -1,5 +1,12 @@
 ---
 title: Expectation Maximization of Forward Decoding Kernel Machines
+abstract: Forward Decoding Kernel Machines (FDKM) combine large-margin kernel classifiers
+  with Hidden Markov Models (HMM) for Maximum a Posteriori (MAP) adaptive sequence
+  estimation. This paper proposes a variant on FDKM training using ExpectationMaximization
+  (EM). Parameterization of the expectation step controls the temporal extent of the
+  context used in correcting noisy and missing labels in the training sequence. Experiments
+  with EM-FDKM on TIMIT phone sequence data demonstrate up to $10 %$ improvement in
+  classification performance over FDKM trained with hard transitions between labels.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR

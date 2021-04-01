@@ -1,5 +1,13 @@
 ---
 title: On the Naive Bayes Model for Text Categorization
+abstract: This paper empirically compares the performance of four probabilistic models
+  for text classification - Poisson, Bernoulli, Multinomial and Negative Binomial.
+  We examine the "naive Bayes" assumption in the four models and show that the multinomial
+  model is a modified naive Bayes Poisson model that assumes independence of document
+  length and document class. Despite the fact that this last assumption might not
+  be correct in many situations, we find that, in general, relaxing it does not change
+  the performance of the classifier. Finally we propose and evaluate an ad-hoc method
+  for incorporating document length.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR

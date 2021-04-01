@@ -39,7 +39,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Quick Training of Probabilistic Neural Nets by Importance Sampling},
   pages     = {17-24},
-  abstract  = {}
+  abstract  = {Our previous work on statistical language modeling introduced the use of probabilistic feedforward neural networks to help dealing with the curse of dimensionality. Training this model by maximum likelihood however requires for each example to perform as many network passes as there are words in the vocabulary. Inspired by the contrastive divergence model, we propose and evaluate sampling-based methods which require network passes only for the observed "positive example" and a few sampled negative example words. A very significant speed-up is obtained with an adaptive importance sampling.}
 }
 
 @InProceedings{152,
@@ -47,7 +47,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Super-resolution Enhancement of Video},
   pages     = {25-32},
-  abstract  = {}
+  abstract  = {We consider the problem of enhancing the resolution of video through the addition of perceptually plausible high frequency information. Our approach is based on a learned data set of image patches capturing the relationship between the middle and high spatial frequency bands of natural images. By introducing an appropriate prior distribution over such patches we can ensure consistency of static image regions across successive frames of the video, and also take account of object motion. A key concept is the use of the previously enhanced frame to provide part of the training set for super-resolution enhancement of the current frame. Our results show that a marked improvement in video quality can be achieved at reasonable computational cost.}
 }
 
 @InProceedings{187,
@@ -55,7 +55,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Structured Variational Distributions in {VIBES}},
   pages     = {33-40},
-  abstract  = {}
+  abstract  = {Variational methods are becoming increasingly popular for the approximate solution of complex probabilistic models in machine learning, computer vision, information retrieval and many other fields. Unfortunately, for every new application it is necessary first to derive the specific forms of the variational update equations for the particular probabilistic model being used, and then to implement these equations in applicationspecific software. Each of these steps is both time consuming and error prone. We have therefore recently developed a general purpose inference engine called VIBES [1] ('Variational Inference for Bayesian Networks') which allows a wide variety of probabilistic models to be implemented and solved variationally without recourse to coding. New models are specified as a directed acyclic graph using an interface analogous to a drawing package, and VIBES then automatically generates and solves the variational equations. The original version of VIBES assumed a fully factorized variational posterior distribution. In this paper we present an extension of VIBES in which the variational posterior distribution corresponds to a sub-graph of the full probabilistic model. Such structured distributions can produce much closer approximations to the true posterior distribution. We illustrate this approach using an example based on Bayesian hidden Markov models.}
 }
 
 @InProceedings{189,
@@ -63,7 +63,8 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {A Unifying Theorem for Spectral Embedding and Clustering},
   pages     = {41-48},
-  abstract  = {}
+  abstract  = {Spectral methods use selected eigenvectors of a data affinity matrix to obtain a data representation that can be trivially clustered or embedded in a low-dimensional space. We present a theorem that explains, for broad classes of affinity matrices and eigenbases, why this works:
+For successively smaller eigenbases (i.e., using fewer and fewer of the affinity matrix's dominant eigenvalues and eigenvectors), the angles between "similar" vectors in the new representation shrink while the angles between "dissimilar" vectors grow. Specifically, the sum of the squared cosines of the angles is strictly increasing as the dimensionality of the representation decreases. Thus spectral methods work because the truncated eigenbasis amplifies structure in the data so that any heuristic post-processing is more likely to succeed. We use this result to construct a nonlinear dimensionality reduction (NLDR) algorithm for data sampled from manifolds whose intrinsic coordinate system has linear and cyclic axes, and a novel clustering-by-projections algorithm that requires no post-processing and gives superior performance on "challenge problems" from the recent literature.}
 }
 
 @InProceedings{163,
@@ -71,7 +72,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {The Sound of an Album Cover: A Probabilistic Approach to Multimedia},
   pages     = {49-56},
-  abstract  = {}
+  abstract  = {We present a novel, flexible, statistical approach to modeling music, images and text jointly. The technique is based on multi-modal mixture models and efficient computation using online EM. The learned models can be used to browse multimedia databases, to query on a multimedia database using any combination of music, images and text (lyrics and other contextual information), to annotate documents with music and images, and to find documents in a database similar to input text, music and/or graphics files.}
 }
 
 @InProceedings{207,
@@ -79,7 +80,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Is Multinomial {PCA} Multi-faceted Clustering or Dimensionality Reduction?},
   pages     = {57-64},
-  abstract  = {}
+  abstract  = {Discrete analogues to Principal Components Analysis (PCA) are intended to handle discrete or positive-only data, for instance sets of documents. The class of methods is appropriately called multinomial PCA because it replaces the Gaussian in the probabilistic formulation of PCA with a multinomial. Experiments to date, however, have been on small data sets, for instance, from early information retrieval collections. This paper demonstrates the method on two large data sets and considers two extremes of behaviour: (1) dimensionality reduction where the feature set (i.e., bag of words) is considerably reduced, and (2) multi-faceted clustering (or aspect modelling) where clustering is done but items can now belong in several clusters at once.}
 }
 
 @InProceedings{201,
@@ -87,7 +88,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Expectation Maximization of Forward Decoding Kernel Machines},
   pages     = {65-71},
-  abstract  = {}
+  abstract  = {Forward Decoding Kernel Machines (FDKM) combine large-margin kernel classifiers with Hidden Markov Models (HMM) for Maximum a Posteriori (MAP) adaptive sequence estimation. This paper proposes a variant on FDKM training using ExpectationMaximization (EM). Parameterization of the expectation step controls the temporal extent of the context used in correcting noisy and missing labels in the training sequence. Experiments with EM-FDKM on TIMIT phone sequence data demonstrate up to $10 \%$ improvement in classification performance over FDKM trained with hard transitions between labels.}
 }
 
 @InProceedings{173,
@@ -95,7 +96,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Model Averaging with Bayesian Network Classifiers},
   pages     = {72-79},
-  abstract  = {}
+  abstract  = {This paper considers the problem of performing classification by model-averaging over a class of discrete Bayesian network structures consistent with a partial ordering and with bounded in-degree $k .$ We show that for $N$ nodes this class contains in the worst-case at least $\Omega\left(\left(\begin{array}{c}N/2 \\ k\end{array}\right)^{N / 2} \right)$ distinct network structures, \right. but we show that this summation can be performed in $O\left(\left(\begin{array}{c}N \\ k\end{array}\right) \cdot N\right)$  time. We use this fact to show that it is possible to efficiently construct a single directed acyclic graph (DAG) whose predictions approximate those of exact model-averaging over this class, allowing approximate model-averaged predictions to be performed in $O(N)$ time. We evaluate the procedure in a supervised classification context, and show empirically that this technique can be beneficial for classification even when the generating distribution is not a member of the class being averaged over, and we characterize the performance over several parameters on simulated and real-world data.}
 }
 
 @InProceedings{188,
@@ -103,7 +104,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {An object-oriented Bayesian network for estimating mutation rates},
   pages     = {80-84},
-  abstract  = {}
+  abstract  = {We describe the use of the object-oriented HUGIN 6 probabilistic expert system software to structure the problem of estimating mutation rates on the basis of family data when paternity can not be regarded as certain.}
 }
 
 @InProceedings{140,
@@ -111,7 +112,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Document Retrieval and Clustering: from Principal Component Analysis to Self-aggregation Networks},
   pages     = {85-92},
-  abstract  = {}
+  abstract  = {Abstract. We first extend Hopfield networks to clustering bipartite graphs (words-to-document association) and show that the solution is the principal component analysis. We then generalize this via the min-max clustering principle into a self-aggregation networks which are composed of scaled PCA components via Hebb rule. Clustering amounts to an updating process where connections between different clusters are automatically suppressed while connections within same clusters are enhanced. This framework combines dimension reduction with clustering via neural networks and PCA. Self-aggregation networks can also improve information retrieval performance. Applications are presented.}
 }
 
 @InProceedings{165,
@@ -119,7 +120,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {On the Naive Bayes Model for Text Categorization},
   pages     = {93-100},
-  abstract  = {}
+  abstract  = {This paper empirically compares the performance of four probabilistic models for text classification - Poisson, Bernoulli, Multinomial and Negative Binomial. We examine the "naive Bayes" assumption in the four models and show that the multinomial model is a modified naive Bayes Poisson model that assumes independence of document length and document class. Despite the fact that this last assumption might not be correct in many situations, we find that, in general, relaxing it does not change the performance of the classifier. Finally we propose and evaluate an ad-hoc method for incorporating document length.}
 }
 
 @InProceedings{181,
@@ -127,7 +128,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Curve Clustering with Random Effects Regression Mixtures},
   pages     = {101-108},
-  abstract  = {}
+  abstract  = {In this paper we address the problem of clustering sets of curve or trajectory data generated by groups of objects or individuals. The focus is to model curve data directly using a set of model-based curve clustering algorithms referred to as mixtures of regressions or regression mixtures. The proposed methodology is based on extension to regression mixtures that we call random effects regression mixtures which combines linear random effects models with standard regression mixtures. We develop a general expectationmaximization (EM) algorithm using maximum a posteriori (MAP) estimation for random effects regression mixtures and demonstrate how this technique can be applied to the problem of clustering cyclone data.}
 }
 
 @InProceedings{158,
@@ -311,7 +312,7 @@
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Fast Marginal Likelihood Maximisation for Sparse Bayesian Models},
   pages     = {276-283},
-  abstract  = {}
+  abstract  = {The 'sparse Bayesian' modelling approach, as exemplified by the 'relevance vector machine', enables sparse classification and regression functions to be obtained by linearlyweighting a small number of fixed basis functions from a large dictionary of potential candidates. Such a model conveys a number of advantages over the related and very popular 'support vector machine', but the necessary 'training' procedure - optimisation of the marginal likelihood function is typically much slower. We describe a new and highly accelerated algorithm which exploits recently-elucidated properties of the marginal likelihood function to enable maximisation via a principled and efficient sequential addition and deletion of candidate basis functions.}
 }
 
 @InProceedings{198,

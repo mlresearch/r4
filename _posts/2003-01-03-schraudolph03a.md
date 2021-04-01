@@ -1,5 +1,12 @@
 ---
 title: Combining Conjugate Direction Methods with Stochastic Approximation of Gradients
+abstract: The method of conjugate directions provides a very effective way to optimize
+  large, deterministic systems by gradient descent. In its standard form, however,
+  it is not amenable to stochastic approximation of the gradient. Here we explore
+  ideas from conjugate gradient in the stochastic (online) setting, using fast Hessian-gradient
+  products to set up low-dimensional Krylov subspaces within individual mini-batches.
+  In our benchmark experiments the resulting online learning algorithms converge orders
+  of magnitude faster than ordinary stochastic gradient descent.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR

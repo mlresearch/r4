@@ -1,5 +1,16 @@
 ---
 title: 'Towards Principled Feature Selection: Relevancy, Filters and Wrappers'
+abstract: In an influential paper Kohavi and John [7] presented a number of disadvantages
+  of the filter approach to the feature selection problem, steering research towards
+  algorithms adopting the wrapper approach. We show here that neither approach is
+  inherently better and that any practical feature selection algorithm needs to at
+  least consider the learner used for classification and the metric used for evaluating
+  the learner’s performance. In the process we formally define the feature selection
+  problem, re-examine the relationship between relevancy and filter algorithms, and
+  establish a connection between Kohavi and John’s definition of relevancy to the
+  Markov Blanket of a target variable in a Bayesian Network faithful to some data
+  distribution. The theoretical results lead to principled ways of designing optimal
+  filter algorithms of which we present one example.
 layout: inproceedings
 series: Proceedings of Machine Learning Research
 publisher: PMLR

@@ -96,7 +96,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Model Averaging with Bayesian Network Classifiers},
   pages     = {72-79},
-  abstract  = {This paper considers the problem of performing classification by model-averaging over a class of discrete Bayesian network structures consistent with a partial ordering and with bounded in-degree $k .$ We show that for $N$ nodes this class contains in the worst-case at least $\Omega\left(\left(\begin{array}{c}N/2 \\ k\end{array}\right)^{N / 2} \right)$ distinct network structures, \right. but we show that this summation can be performed in $O\left(\left(\begin{array}{c}N \\ k\end{array}\right) \cdot N\right)$  time. We use this fact to show that it is possible to efficiently construct a single directed acyclic graph (DAG) whose predictions approximate those of exact model-averaging over this class, allowing approximate model-averaged predictions to be performed in $O(N)$ time. We evaluate the procedure in a supervised classification context, and show empirically that this technique can be beneficial for classification even when the generating distribution is not a member of the class being averaged over, and we characterize the performance over several parameters on simulated and real-world data.}
+  abstract  = {This paper considers the problem of performing classification by model-averaging over a class of discrete Bayesian network structures consistent with a partial ordering and with bounded in-degree $k .$ We show that for $N$ nodes this class contains in the worst-case at least $\Omega\left(\left(\begin{array}{c}N/2 \\ k\end{array}\right)^{N / 2} \right)$ distinct network structures, but we show that this summation can be performed in $O\left(\left(\begin{array}{c}N \\ k\end{array}\right) \cdot N\right)$  time. We use this fact to show that it is possible to efficiently construct a single directed acyclic graph (DAG) whose predictions approximate those of exact model-averaging over this class, allowing approximate model-averaged predictions to be performed in $O(N)$ time. We evaluate the procedure in a supervised classification context, and show empirically that this technique can be beneficial for classification even when the generating distribution is not a member of the class being averaged over, and we characterize the performance over several parameters on simulated and real-world data.}
 }
 
 @InProceedings{188,
@@ -136,7 +136,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Clustering Markov States into Equivalence Classes using {SVD} and Heuristic Search Algorithms},
   pages     = {109-116},
-  abstract  = {}
+  abstract  = {This paper investigates the problem of finding a $K$-state first-order Markov chain that approximates an $M$-state first-order Markov chain, where $K$ is typically much smaller than $M$. A variety of greedy heuristic search algorithms that maximize the data likelihood are investigated and found to work well empirically. The proposed algorithms are demonstrated on two applications: learning user models from traces of Unix commands, and word segmentation in language modeling.}
 }
 
 @InProceedings{180,
@@ -144,7 +144,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Rapid Evaluation of Multiple Density Models},
   pages     = {117-123},
-  abstract  = {}
+  abstract  = {When highly-accurate and/or assumptionfree density estimation is needed, nonparametric methods are often called upon - most notably the popular kernel density estimation (KDE) method. However, the practitioner is instantly faced with the formidable computational cost of KDE for appreciable dataset sizes, which becomes even more prohibitive when many models with different kernel scales (bandwidths) must be evaluated - this is necessary for finding the optimal model, among other reasons. In previous work we presented an algorithm for fast KDE which addresses large dataset sizes and large dimensionalities, but assumes only a single bandwidth. In this paper we present a generalization of that algorithm allowing multiple models with different bandwidths to be computed simultaneously, in substantially less time than either running the singlebandwidth algorithm for each model independently, or running the standard exhaustive method. We show examples of computing the likelihood curve for 100,000 data and 100 models ranging across 3 orders of magnitude in scale, in minutes or seconds.}
 }
 
 @InProceedings{166,
@@ -152,7 +152,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Bayesian Feature Weighting for Unsupervised Learning, with Application to Object Recognition},
   pages     = {124-131},
-  abstract  = {}
+  abstract  = {We present a method for variable selection/weighting in an unsupervised learning context using Bayesian shrinkage. The basis for the model is a finite mixture of multivariate Gaussian distributions. We demonstrate how the model parameters and cluster assignments can be computed simultaneously using an efficient EM algorithm. Applying our Bayesian shrinkage model to a complex problem in object recognition (Duygulu, Barnard, de Freitas and Forsyth 2002), our experiments yield good results.}
 }
 
 @InProceedings{121,
@@ -160,7 +160,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Generalized belief propagation for approximate inference in hybrid Bayesian networks},
   pages     = {132-140},
-  abstract  = {}
+  abstract  = {We apply generalized belief propagation to approximate inference in hybrid Bayesian networks. In essence, in the algorithms developed for discrete networks we only have to change "strong marginalization" (exact) into "weak marginalization" (same moments) or, equivalently, the "sum" operation in the (generalized) sum-product algorithm into a "collapse" operation. We describe both a message-free single-loop algorithm based on fixed-point iteration and a more tedious double-loop algorithm guaranteed to converge to a minimum of the Kikuchi free energy. With the cluster variation method we can interpolate between the minimal Kikuchi approximation and the (strong) junction tree algorithm. Simulations on the emission network of [7] , extended in [13], indicate that the Kikuchi approximation in practice often works really well, even in the difficult case of discrete children of continuous parents.}
 }
 
 @InProceedings{126,
@@ -168,7 +168,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Learning Bayesian Networks From Dependency Networks: {A} Preliminary Study},
   pages     = {141-148},
-  abstract  = {}
+  abstract  = {In this paper we describe how to learn Bayesian networks from a summary of complete data in the form of a dependency network rather than from data directly. This method allows us to gain the advantages of both representations: scalable algorithms for learning dependency networks and convenient inference with Bayesian networks. Our approach is to use a dependency network as an "oracle" for the statistics needed to learn a Bayesian network. We show that the general problem is NP-hard and develop a greedy search algorithm. We conduct a preliminary experimental evaluation and find that the prediction accuracy of the Bayesian networks constructed from our algorithm almost equals that of Bayesian networks learned directly from the data.}
 }
 
 @InProceedings{212,
@@ -176,7 +176,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Convex Invariance Learning},
   pages     = {149-156},
-  abstract  = {}
+  abstract  = {Invariance and representation learning are important precursors to modeling and classification tools particularly for non-Euclidean spaces such as images, strings and nonvectorial data. This article proposes a method for learning invariances in data while jointly estimating a model. The technique results in a convex programming problem with a consistent and unique solution. Representation variables are considered as affine transformations confined by multiple equality and inequality constraints. These interact individually with each datum yet maintain the overall solvability of the model estimation process while uniquely solving for the representational variables themselves. The method is applicable to various types of modeling, including maximum likelihood estimation, principal components analysis, and discriminative methods. Starting from affine invariance, several types of invariances are proposed and implemented as convex programs including clustering, permutation, selection, rotation, and translation. Experiments on non-vectorial data such as images and collections of tuples provide promising results.}
 }
 
 @InProceedings{105,
@@ -184,7 +184,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Refining Kernels for Regression and Uneven Classification Problems},
   pages     = {157-162},
-  abstract  = {}
+  abstract  = {Kernel alignment has recently been proposed as a method for measuring the degree of agreement between a kernel and a classification learning task. In this paper we extend the notion of kernel alignment to two other common learning problems: regression and classification with uneven data. We present a modified definition of alignment together with a novel theoretical justification for why improving alignment will lead to better performance in the regression case. Experimental evidence is provided to show that improving the alignment leads to a reduction in generalization error of standard regressors and classifiers.}
 }
 
 @InProceedings{174,
@@ -192,7 +192,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Fast Robust Logistic Regression for Large Sparse Datasets with Binary Outputs},
   pages     = {163-170},
-  abstract  = {}
+  abstract  = {Although popular and extremely well established in mainstream statistical data analysis, logistic regression is strangely absent in the field of data mining. There are two possible explanations of this phenomenon. First, there might be an assumption that any tool which can only produce linear classification boundaries is likely to be trumped by more modern nonlinear tools. Second, there is a legitimate fear that logistic regression cannot practically scale up to the massive dataset sizes to which modern data mining tools are applied. This paper consists of an empirical examination of the first assumption, and surveys, implements and compares techniques by which logistic regression can be scaled to data with millions of attributes and records. Our results, on a large life sciences dataset, indicate that logistic regression can perform surprisingly well, both statistically and computationally, when compared with an array of more recent classification algorithms.}
 }
 
 @InProceedings{172,
@@ -200,7 +200,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Efficient Computing of Stochastic Complexity},
   pages     = {171-178},
-  abstract  = {}
+  abstract  = {Stochastic complexity of a data set is defined as the shortest possible code length for the data obtainable by using some fixed set of models. This measure is of great theoretical and practical importance as a tool for tasks such as model selection or data clustering. Unfortunately, computing the modern version of stochastic complexity, defined as the Normalized Maximum Likelihood (NML) criterion, requires computing a sum with an exponential number of terms. Therefore, in order to be able to apply the stochastic complexity measure in practice, in most cases it has to be approximated. In this paper, we show that for some interesting and important cases with multinomial data sets, the exponentiality can be removed without loss of accuracy. We also introduce a new computationally efficient approximation scheme based on analytic combinatorics and assess its accuracy, together with earlier approximations, by comparing them to the exact form. The results suggest that due to its accuracy and efficiency, the new sharper approximation will be useful for a wide class of problems with discrete data.}
 }
 
 @InProceedings{134,
@@ -208,7 +208,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {The Joint Causal Effect in Linear Structural Equation Model and Its Application to Process Analysis},
   pages     = {179-186},
-  abstract  = {}
+  abstract  = {Consider a case where cause-effect relationships among variables can be described by a causal diagram and the corresponding linear structural equation model. In order to bring a response variable close to a target, this paper proposes a statistical method for inferring a joint causal effect of a conditional plan on the variance of a response variable from nonexperimental data. Moreover, based on this method, this paper formulates a conditional plan, which can cancel the influence of covariates on a response variable. The results of this paper could enable us to select an effective plan in linear conditional plans.}
 }
 
 @InProceedings{211,
@@ -216,7 +216,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Bayesian Inference in the Presence of Determinism},
   pages     = {187-194},
-  abstract  = {}
+  abstract  = {In this paper, we consider the problem of performing inference on Bayesian networks which exhibit a substantial degree of determinism. We improve upon the determinismexploiting inference algorithm presented in [4], showing that the information brought to light by constraint propagation may be exploited to a much greater extent than has been previously possible. This is confirmed with theoretical and empirical studies.}
 }
 
 @InProceedings{148,
@@ -224,7 +224,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Reduced Rank Approximations of Transition Matrices},
   pages     = {195-202},
-  abstract  = {}
+  abstract  = {We present various latent variable models for the reduced rank approximation of transition matrices. Two main categories of models, termed Latent Markov Analysis(LMA) models, are introduced. We first address the case where the transition matrix is consistent with a reversible random walk. A more general case is subsequently addressed. Iterative EM-type algorithms are presented for all models. LMA is applied to clustering based on pairwise similarities, where similarities between objects are described probabilistically. In the model, relationships between the inferred clusters are again described probabilistically by the reduced rank transition matrix. LMA simultaneously infers the clusters and abstracts the relationships between them, which can be represented in the form of a weighted graph. Finally, a "targeted" LMA model is introduced where a prior specification of the transition between latent cluster states is incorporated. This provides an algorithm which searches for clusters satisfying pre-specified relationships.}
 }
 
 @InProceedings{190,
@@ -232,15 +232,19 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {On Retrieval Properties of Samples of Large Collections},
   pages     = {203-208},
-  abstract  = {}
+  abstract  = {We consider text retrieval applications that assign query-specific relevance scores to documents drawn from particular collections. Such applications represent a primary focus of the annual Text Retrieval Conference (TREC) where the participants compare the empirical performance of different approaches. "P@K," the proportion of the top $K$ documents that are relevant, is a popular measure of retrieval effectiveness.
+
+Participants in the TREC Very Large Corpus track have observed that $P @ K$ increases substantially when moving from a sample to the full collection. Hawking et al. (1999) posed as an open research question the cause of this phenomenon and proposed five possible explanatory hypotheses. In this paper we present a mathematical analysis of the phenomenon. We will also introduce "contamination at $K, "$ the number of irrelevant documents amongst the top $K$ relevant documents, and describe its properties.
+
+Our analysis shows that while $P @ K$ typically will increase with collection size, the phenomenon is not universal. That is, there exist score distributions for which $P @ K$ (and $C @ K$ ) approach a constant limit as collection size increases.}
 }
 
 @InProceedings{120,
-  author    = {Marina Meila},
+  author    = {Marina Meil\u{a}},
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Data Centering in Feature Space},
   pages     = {209-216},
-  abstract  = {}
+  abstract  = {This paper presents a family of methods for data translation in feature space, to be used in conjunction with kernel machines. The translations are performed using only kernel evaluations in input space. We use the methods to improve the numerical properties of kernel machines. Experiments with synthetic and real data demonstrate the effectiveness of data centering and highlight other interesting aspects of translation in feature space.}
 }
 
 @InProceedings{167,
@@ -248,7 +252,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {A Blessing of Dimensionality: Measure Concentration and Probabilistic Inference},
   pages     = {217-224},
-  abstract  = {}
+  abstract  = {This paper proposes an efficient sampling method for inference in probabilistic graphical models. The method exploits a blessing of dimensionality known as the concentration of measure phenomenon in order to derive analytic expressions for proposal distributions. The method can also be interpreted in a variational setting, were one minimises an upperbound on the estimator variance. The results on simple settings are very promising. We believe this method has great potential in graphical models used for diagnosis.}
 }
 
 @InProceedings{208,
@@ -256,7 +260,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Real-time On-line Learning of Transformed Hidden Markov Models from Video},
   pages     = {225-232},
-  abstract  = {}
+  abstract  = {The transformed hidden Markov model is a temporal model that captures three typical causes of variability in video - scene/object class, appearance variability within the class, and image motion. In our previous work, we showed that an exact EM algorithm can jointly learn the appearances of multiple objects and/or poses of an object, and track the objects or camera motion in video, starting simply from random initialization. As such, this model can serve as a basis for both video clustering and object tracking applications. However, the original algorithm requires a significant amount of computation that renders it impractical for video clustering and its off-line nature makes it unsuitable for real-time tracking applications. In this paper, we propose a new, significantly faster, on-line learning algorithm that enables real-time clustering and tracking. We demonstrate that the algorithm can extract objects using the constraints on their motion and also perform tracking while the appearance models are learned. We also demonstrate the clustering results on an example of typical unrestricted personal media - the vacation video.}
 }
 
 @InProceedings{154,
@@ -264,7 +268,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Ensemble Coupled Hidden Markov Models for Joint Characterisation of Dynamic Signals},
   pages     = {233-239},
-  abstract  = {}
+  abstract  = {How does one model data with the aid of labels, when the labels themselves are noisy, unreliable and have their own dynamics? How does one measure interactions between variables that are so different in their nature that a direct comparison using, say cross-correlations, is meaningless? In this paper these problems are approached using Coupled Hidden Markov Models which are estimated in the Variational Bayesian framework. Signals can be diverse since each chain has its own observation model. Signals can have their own dynamics and may temporally lag or lead one another by allowing linking edges in the network topology to be estimated and chosen according to the most probable posterior model. Integrated feature extraction and modelling is accomplished by providing the Markov models models with linear observations models. We derive Coupled Hidden Markov Models estimators, apply and compare them with sampling based approaches found in the literature.}
 }
 
 @InProceedings{119,
@@ -272,7 +276,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {A Generalized Linear Model for Principal Component Analysis of Binary Data},
   pages     = {240-247},
-  abstract  = {}
+  abstract  = {We investigate a generalized linear model for dimensionality reduction of binary data. The model is related to principal component analysis (PCA) in the same way that logistic regression is related to linear regression. Thus we refer to the model as logistic PCA. In this paper, we derive an alternating least squares method to estimate the basis vectors and generalized linear coefficients of the logistic PCA model. The resulting updates have a simple closed form and are guaranteed at each iteration to improve the model's likelihood. We evaluate the performance of logistic PCA---as measured by reconstruction error rates---on data sets drawn from four real world applications. In general, we find that logistic PCA is much better suited to modeling binary data than conventional PCA.}
 }
 
 @InProceedings{118,
@@ -280,7 +284,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Combining Conjugate Direction Methods with Stochastic Approximation of Gradients},
   pages     = {248-253},
-  abstract  = {}
+  abstract  = {The method of conjugate directions provides a very effective way to optimize large, deterministic systems by gradient descent. In its standard form, however, it is not amenable to stochastic approximation of the gradient. Here we explore ideas from conjugate gradient in the stochastic (online) setting, using fast Hessian-gradient products to set up low-dimensional Krylov subspaces within individual mini-batches. In our benchmark experiments the resulting online learning algorithms converge orders of magnitude faster than ordinary stochastic gradient descent.}
 }
 
 @InProceedings{176,
@@ -288,7 +292,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Fast Forward Selection to Speed Up Sparse Gaussian Process Regression},
   pages     = {254-261},
-  abstract  = {}
+  abstract  = {We present a method for the sparse greedy approximation of Bayesian Gaussian process regression, featuring a novel heuristic for very fast forward selection. Our method is essentially as fast as an equivalent one which selects the "support" patterns at random, yet it can outperform random selection on hard curve fitting tasks. More importantly, it leads to a sufficiently stable approximation of the log marginal likelihood of the training data, which can be optimised to adjust a large number of hyperparameters automatically. We demonstrate the model selection capabilities of the algorithm in a range of experiments. In line with the development of our method, we present a simple view on sparse approximations for GP models and their underlying assumptions and show relations to other methods.}
 }
 
 @InProceedings{178,
@@ -296,7 +300,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {On Improving the Efficiency of the Iterative Proportional Fitting Procedure},
   pages     = {262-269},
-  abstract  = {}
+  abstract  = {Iterative proportional fitting (IPF) on junction trees is an important tool for learning in graphical models. We identify the propagation and IPF updates on the junction tree as fixed point equations of a single constrained entropy maximization problem. This allows a more efficient message updating protocol than the well known effective IPF of Jiroušek and Preučil (1995). When the junction tree has an intractably large maximum clique size we propose to maximize an approximate constrained entropy based on region graphs (Yedidia et al., 2002). To maximize the new objective we propose a "loopy" version of IPF. We show that this yields accurate estimates of the weights of undirected graphical models in a simple experiment.}
 }
 
 @InProceedings{204,
@@ -304,7 +308,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Discriminative Model Selection for Density Models},
   pages     = {270-275},
-  abstract  = {}
+  abstract  = {Density models are a popular tool for building classifiers. When using density models to build a classifier, one typically learns a separate density model for each class of interest. These density models are then combined to make a classifier through the use of Bayes' rule utilizing the prior distribution over the classes. In this paper, we provide a discriminative method for choosing among alternative density models for each class to improve classification accuracy.}
 }
 
 @InProceedings{123,
@@ -316,11 +320,12 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
 }
 
 @InProceedings{198,
-  author    = {P{\'{e}}ter Torma and Csaba Szepesv{\'{a}}ri},
+  author    = {P\'{e}ter Torma and Csaba Szepesv\'{a}ri},
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Sequential Importance Sampling for Visual Tracking Reconsidered},
   pages     = {284-291},
-  abstract  = {}
+  abstract  = {We consider the task of filtering dynamical systems observed in noise by means of sequential importance sampling when the proposal is restricted to the innovation components of the state. It is argued that the unmodified sequential importance sampling/resampling (SIR) algorithm may yield high variance estimates of the posterior in this case, resulting in poor performance when
+e.g. in visual tracking one tries to build a SIR algorithm on the top of the output of a color blob detector. A new method that associates the innovations sampled from the proposal and the particles in a separate computational step is proposed. The method is shown to outperform the unmodified SIR algorithm in a series of vision based object tracking experiments, both in terms of accuracy and robustness.}
 }
 
 @InProceedings{147,
@@ -328,7 +333,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Solving Markov Random Fields using Semi Definite Programming},
   pages     = {292-299},
-  abstract  = {}
+  abstract  = {This paper explores a new generic method for matching, when there are conditional dependencies between the matches. It allows different sorts of features to be matched in the same global optimization framework. The method is based on a binary Markov random field model which is defined on the product space of matches, and is shown to be equivalent to $0-1$ quadratic programming, and the MAXCUT graph problem. In general these problem are $N P$ complete. However our approach takes inspiration from the celebrated result of Goemans and Williamson (1995) that finds a polynomial time 0.879 approximation to several $N P$ complete, using semidefinite programming. The method is demonstrated for the problem of curve matching.}
 }
 
 @InProceedings{133,
@@ -336,7 +341,7 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Towards Principled Feature Selection: Relevancy, Filters and Wrappers},
   pages     = {300-307},
-  abstract  = {}
+  abstract  = {In an influential paper Kohavi and John [7] presented a number of disadvantages of the filter approach to the feature selection problem, steering research towards algorithms adopting the wrapper approach. We show here that neither approach is inherently better and that any practical feature selection algorithm needs to at least consider the learner used for classification and the metric used for evaluating the learner's performance. In the process we formally define the feature selection problem, re-examine the relationship between relevancy and filter algorithms, and establish a connection between Kohavi and John's definition of relevancy to the Markov Blanket of a target variable in a Bayesian Network faithful to some data distribution. The theoretical results lead to principled ways of designing optimal filter algorithms of which we present one example.}
 }
 
 @InProceedings{122,
@@ -344,15 +349,15 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {Tree-reweighted Belief Propagation Algorithms and Approximate {ML} Estimation by Pseudo-Moment Matching},
   pages     = {308-315},
-  abstract  = {}
+  abstract  = {In previous work [10] we presented a class of upper bounds on the log partition function of an arbitrary undirected graphical model based on solving a convex variational problem. Here we develop a class of local message-passing algorithms, which we call tree-reweighted belief propagation, for efficiently computing the value of these upper bounds, as well as the associated pseudomarginals. We also consider the uses of our bounds for the problem of maximum likelihood (ML) parameter estimation. For a completely observed model, our analysis gives rise to a concave lower bound on the log likelihood of the data. Maximizing this lower bound yields an approximate ML estimate which, in analogy to the moment-matching of exact ML estimation, can be interpreted in terms of pseudo-moment-matching. We present preliminary results illustrating the behavior of this approximate ML estimator.}
 }
 
 @InProceedings{169,
   author    = {Shaojun Wang and Dale Schuurmans and Fuchun Peng},
   editor    = {Christopher M. Bishop and Brendan J. Frey},
-  title     = {Latent Maximum Entropy Approach for Semantic N-gram Language Modeling},
+  title     = {Latent Maximum Entropy Approach for Semantic $N$-gram Language Modeling},
   pages     = {316-322},
-  abstract  = {}
+  abstract  = {In this paper, we describe a unified probabilistic framework for statistical language modeling-the latent maximum entropy principle-which can effectively incorporate various aspects of natural language, such as local word interaction, syntactic structure and semantic document information. Unlike previous work on maximum entropy methods for language modeling, which only allow explicit features to be modeled, our framework also allows relationships over hidden features to be captured, resulting in a more expressive language model. We describe efficient algorithms for marginalization, inference and normalization in our extended models. We then present promising experimental results for our approach on the Wall Street Journal corpus.}
 }
 
 @InProceedings{156,
@@ -360,7 +365,9 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {On Boosting and the Exponential Loss},
   pages     = {323-329},
-  abstract  = {}
+  abstract  = {Boosting algorithms in general and AdaBoost in particular, initially baffled the statistical world by posing two questions:
+(1) Why is it that AdaBoost performs so well? and
+(2) What makes Boosting methods resistant to overfiting? In response to question (1) Hastie, Tibshirani and Friedman (2000) take a statistical view of Boosting by recasting it as a stagewise approach to the minimization of an exponential loss function by means of an additive model in a process similar to additive logistic regression. This characterization has since been well integrated in the statistics and computer science communities as the best statistical answer to question (1). In this paper, we argue that this well assimilated view is questionable and that perhaps Boosting's success has nothing to do with the minimization of an exponential criterion or indeed any optimization at all. Our argument rests on a constructive theorem that states that for any sequence of classifiers there exists a linear combination for which the exponential criterion equals one. Furthermore, we present a Boosting algorithm which performs empirically like AdaBoost while stabilizing the exponential loss to a constant.}
 }
 
 @InProceedings{171,
@@ -368,6 +375,6 @@ For successively smaller eigenbases (i.e., using fewer and fewer of the affinity
   editor    = {Christopher M. Bishop and Brendan J. Frey},
   title     = {An Active Approach to Collaborative Filtering},
   pages     = {330-337},
-  abstract  = {}
+  abstract  = {Collaborative filtering allows the preferences of multiple users to be pooled in a principled way in order to make recommendations about products, services or information unseen by a specific user. We consider here the problem of online and interactive collaborative filtering: given the current ratings and recommendations associated with a user, what queries (new ratings) would most improve the quality of the recommendations made? This can be cast in a straightforward fashion in terms of expected value of information; but the online computational cost of computing optimal queries is prohibitive. We show how offline precomputation of bounds on value of information, and of prototypes in query space, can be used to dramatically reduce the required online computation. The framework we develop is quite general, but we derive detailed bounds for the multiplecause vector quantization model, and empirically demonstrate the value of our active approach using this model.}
 }
 
